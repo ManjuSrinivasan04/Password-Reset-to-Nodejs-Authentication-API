@@ -39,10 +39,10 @@ const UserSchema = new mongoose.Schema({
         max: 100
     },
 
-    isVerified: {
-        type: Boolean,
-        default: false
-    },
+   // isVerified: {
+       // type: Boolean,
+       // default: false
+   // },
 
     resetPasswordToken: {
         type: String,
